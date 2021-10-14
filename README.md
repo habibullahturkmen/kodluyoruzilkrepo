@@ -29,4 +29,4 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 ## Screenshot
 
-![Repo Screeenshot](https://github.com/habibullahturkmen/kodluyoruzilkrepo/blob/main/screenshots/screenshot.png?raw=true)
+![Repo Screeenshot](https://github.com/habibullahturkmen/kodluyoruzilkrepo/blob/main/Kodluyoruzilkrepo.png?raw=true)
