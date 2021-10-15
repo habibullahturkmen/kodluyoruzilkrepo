@@ -1,0 +1,41 @@
+.search-bar {
+    text-align: center;
+    padding-top: 1px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #eeebeb;
+}
+
+.container {
+    display: flex;
+    margin: 2px 75px 10px;
+}
+
+.item1 {
+    float: left;
+    text-align: center;
+    background-color: #7EE5DA;
+    width: 37%;
+    padding: 10px;
+    margin:1px 1px 0 0;
+}
+
+.item2 {
+    float: left;
+    text-align: center;
+    background-color: #70CCC2;
+    width: 22.3%;
+    padding: 7px 4px 7px 4px;
+    margin: 1px 1px 0 0;
+    font-size: 13px;
+}
+
+.item3 {
+    float: right;
+    text-align: center;
+    background-color: #62B3AA;
+    width: 37%;
+    margin:1px 1px 0 0;
+    font-size: 13px;
+    padding: 0 15px;
+}
