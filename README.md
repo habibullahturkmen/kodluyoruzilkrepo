@@ -1,6 +1,6 @@
-# Kodluyoruz Ilk Repo
+# Kodluyoruz Full Stack Repository
 
-Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
+Kodluyoruz Eğitimi kapsamında açtığım ana repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
 ## Installation
 
