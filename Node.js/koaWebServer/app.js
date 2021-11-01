@@ -7,12 +7,12 @@ const router = new koaRouter();
 
 router.get('/', (ctx) => {
     ctx.type = 'html';
-    ctx.body = fs.createReadStream('index.html');
+    ctx.body = fs.createReadStream('index.ejs');
 });
 
-router.get('/index.html', (ctx) => {
+router.get('/index.ejs', (ctx) => {
     ctx.type = 'html';
-    ctx.body = fs.createReadStream('index.html');
+    ctx.body = fs.createReadStream('index.ejs');
 });
 
 router.get('/urunlerimiz.html', (ctx) => {

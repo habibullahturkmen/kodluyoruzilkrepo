@@ -1,11 +1,11 @@
 const http = require('http');
 const fs = require('fs');
-const indexPage = fs.readFileSync('website/index.html');
+const indexPage = fs.readFileSync('website/index.ejs');
 const aboutPage = fs.readFileSync('website/Hakkimizda.html');
 const productsPage = fs.readFileSync('website/urunlerimiz.html');
 
 const server = http.createServer((request, response) => {
-    if (request.url === "/" || request.url === "/index" || request.url === "/index.html") {
+    if (request.url === "/" || request.url === "/index" || request.url === "/index.ejs") {
         response.writeHead(200, {"Content-Type": "text/html"});
         response.end(indexPage);
     } else if (request.url === "/Hakkimizda" || request.url === "/Hakkimizda.html") {
