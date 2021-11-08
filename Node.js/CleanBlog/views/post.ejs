@@ -18,6 +18,9 @@
               <%= posts.dateCreated.toLocaleDateString() %> </span>
           </div>
         </div>
+        <!-- <div class="col-lg-4 col-md-2"> -->
+          
+        <!-- </div> -->
       </div>
     </div>
   </header>
@@ -28,9 +31,15 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
 
-
-
-
+          <div class="tm-bg-gray tm-share-box">
+            <div class="text-center">
+              <a href="/posts/edit_post/<%= posts._id %>" class="btn btn-primary mb-4"><span>Update Post</span></a>	
+            </div>	
+            <div class="text-center">
+              <a href="/posts/<%= posts._id %>?_method=Delete" class="btn btn-danger" onclick="return confirm('Are You Sure!')"><span>Delete Post</span></a>	
+            </div>								
+          </div>
+          
         </div>
       </div>
     </div>
