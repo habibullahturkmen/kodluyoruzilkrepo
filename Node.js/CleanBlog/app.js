@@ -13,7 +13,7 @@ const pageController = require('./controllers/pageController');
 const app = express();
 
 // Connect Database
-mongoose.connect('mongodb://localhost/cleanblog-test-db', {
+mongoose.connect('mongodb+srv://habibullah:hw28ub4yzoTYWpQ6@cluster0.gtkue.mongodb.net/cleanblog-db?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
@@ -42,7 +42,7 @@ app.get('/add_post', pageController.getAddPostPage);
 app.get('/post', pageController.getPostPage);
 app.get('/posts/edit_post/:id', pageController.getEditPostPage);
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log(`server started at ${port}`);
 });
